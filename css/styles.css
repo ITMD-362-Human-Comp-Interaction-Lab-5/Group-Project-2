@@ -90,9 +90,7 @@ body {
   position: relative;
   max-width: 600px;
   margin: auto;
-}
-
-.slideshow-container text-align: center; /* Center the slideshow */
+  text-align: center; /* Center the slideshow */
 }
 
 .slide {
