@@ -1,46 +1,118 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Us - Plenty of Fish</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us - Plenty of Fish</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <h1>Welcome to Plenty of Fish</h1>
-        <p>Find your perfect match today!</p>
-    </header>
 
-    <section>
-        <h2>Why Plenty of Fish?</h2>
-        <div class="about-container">
-            <div>
-                <img src="https://via.placeholder.com/400x250" alt="Mission">
-                <h3>Our Mission</h3>
-                <p>At Plenty of Fish, our mission is simple: to help you find meaningful connections and relationships. We are dedicated to providing a safe and welcoming space for people to meet others who share similar interests and values.</p>
-            </div>
+  <!-- Header Section -->
+  <header class="header">
+    <nav class="navbar">
+      <div class="container">
+        <!-- Hamburger Menu -->
+        <button class="hamburger" onclick="toggleDropdown()">&#9776;</button>
+        
+        <!-- Centered Title -->
+        <h1>Plenty of Fish</h1>
+        
+        <!-- Right-aligned Sign-up Button -->
+        <a href="registration.html" class="signup-btn">Sign Up</a>
+      </div>
+    </nav>
+    <!-- Dropdown Menu -->
+    <div class="dropdown-menu" id="dropdownMenu">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="registration.html">Register</a>
+    </div>
+  </header>
 
-            <div>
-                <img src="https://via.placeholder.com/400x250" alt="Features">
-                <h3>Unique Features</h3>
-                <p>We stand out with our advanced matching algorithm, tailored to your preferences. With personalized communication tools and the ability to find local singles, you’re in control of your dating experience.</p>
-            </div>
-
-            <div>
-                <img src="https://via.placeholder.com/400x250" alt="Benefits">
-                <h3>Why It Works</h3>
-                <p>Whether you're looking for a serious relationship or just to meet new people, Plenty of Fish is designed for everyone. Our platform makes it easy to connect, chat, and explore your dating options.</p>
-            </div>
+  <!-- About Section -->
+  <section class="about">
+    <div class="container">
+      <h2>Why Plenty of Fish?</h2>
+      <div class="about-container">
+        <div>
+          <img src="https://via.placeholder.com/400x250" alt="Mission">
+          <h3>Our Mission</h3>
+          <p>At Plenty of Fish, our mission is simple: to help you find meaningful connections and relationships. We are dedicated to providing a safe and welcoming space for people to meet others who share similar interests and values.</p>
         </div>
 
-        <div style="text-align: center; margin-top: 40px;">
-            <a href="#signup" class="cta-button">Join Now and Start Connecting!</a>
+        <div>
+          <img src="https://via.placeholder.com/400x250" alt="Features">
+          <h3>Unique Features</h3>
+          <p>We stand out with our advanced matching algorithm, tailored to your preferences. With personalized communication tools and the ability to find local singles, you’re in control of your dating experience.</p>
         </div>
-    </section>
 
-    <footer>
-        <p>&copy; 2024 Plenty of Fish. All Rights Reserved.</p>
-    </footer>
+        <div>
+          <img src="https://via.placeholder.com/400x250" alt="Benefits">
+          <h3>Why It Works</h3>
+          <p>Whether you're looking for a serious relationship or just to meet new people, Plenty of Fish is designed for everyone. Our platform makes it easy to connect, chat, and explore your dating options.</p>
+        </div>
+      </div>
+
+      <div style="text-align: center; margin-top: 40px;">
+        <a href="#signup" class="cta-button">Join Now and Start Connecting!</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Team Section -->
+  <section class="team">
+    <div class="container">
+      <h2>Meet Our Team</h2>
+      <p>
+        Our dedicated team of developers, designers, and relationship experts work tirelessly to make Plenty of Fish the best dating platform for everyone. 
+        We’re passionate about helping you find love!
+      </p>
+    </div>
+  </section>
+
+  <!-- Footer Section -->
+  <footer class="footer">
+    <div class="download-links">
+      <a href="https://play.google.com/store/apps/details?id=com.pof.android&hl=en_US&pli=1">
+        <img src="images/google-play-badge.webp" alt="Download on Google Play">
+      </a>
+      <a href="https://apps.apple.com/us/app/plenty-of-fish-dating-app/id389638243">
+        <img src="images/apple-app-store-badge.png" alt="Download on the App Store">
+      </a>
+    </div>
+    <div class="social-links">
+      <a href="https://www.instagram.com" target="_blank">
+        <img src="images/Instagram_icon.png.webp" alt="Instagram Icon">
+      </a>
+      <a href="https://www.facebook.com" target="_blank">
+        <img src="images/facebook-logo-2019.svg" alt="Facebook Icon">
+      </a>
+      <a href="https://www.twitter.com" target="_blank">
+        <img src="images/twitter-3-logo-png-transparent.png" alt="Twitter Icon">
+      </a>
+    </div>
+    <div class="footer-menu">
+      <details>
+        <summary>Help Center</summary>
+        <a href="#">FAQs</a>
+        <a href="#">Contact Us</a>
+      </details>
+      <details>
+        <summary>Legal</summary>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms of Service</a>
+      </details>
+      <details>
+        <summary>Languages</summary>
+        <a href="#">English</a>
+        <a href="#">Spanish</a>
+        <a href="#">French</a>
+      </details>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
 </body>
 </html>
-
