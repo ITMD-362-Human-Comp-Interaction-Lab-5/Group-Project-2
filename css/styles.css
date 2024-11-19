@@ -166,86 +166,77 @@ body {
   font-family: 'Roboto', 'Segoe UI', Tahoma, 'Helvetica Neue', sans-serif;
 }
 
-/* Styling for the registration page */
-#registration-page {
-  font-family: 'Roboto', 'Segoe UI', Tahoma, 'Helvetica Neue', sans-serif;
-  background-color: #FFE5D1; /* Peachy salmon color */
-  margin: 0;
-  padding: 0;
+.signup-container {
+  padding: 0px 20px 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+  background: #e8cab3;
 }
 
-/* Header section */
-#registration-page .header {
-  background: linear-gradient(to right, #b0470b, #ad233e); /* Orange to pink gradient */
-  padding: 15px;
-  position: relative;
-}
-
-#registration-page h1 p{
-  position: right;
-}
-
-/* Sign-up form container */
-#registration-page .form-container {
-  background-color: white;
-  max-width: 500px;
-  margin: 30px auto;
-  padding: 25px;
-  border-radius: 8px;
-  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-}
-
-#registration-page .form-container h2 {
+.form-wrapper {
+  background: (white);
+  padding: 30px 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(116, 74, 70, 0.878);
+  width: 100%;
+  max-width: 400px;
   text-align: center;
-  color: #b0470b; /* Orange color */
-  margin-bottom: 20px;
 }
 
-/* Form input fields */
-#registration-page .form-container input[type="text"],
-#registration-page .form-container input[type="email"],
-#registration-page .form-container input[type="password"] {
+h1 {
+  font-size: 2em;
+  margin-bottom: 10px;
+  text-align: center;
+  
+}
+
+p {
+  margin-bottom: 20px;
+  color: #555;
+}
+
+.signup-form .form-group {
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.signup-form label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.signup-form input,
+.signup-form select {
   width: 100%;
   padding: 10px;
-  margin: 10px 0;
-  border: 1px solid #ccc;
+  border: 1px solid #ddd;
   border-radius: 5px;
-  font-size: 16px;
-  box-sizing: border-box;
+  font-size: 1em;
 }
 
-#registration-page .form-container input[type="submit"] {
-  background-color: #FF5733; /* Button color */
+.signup-form input:focus,
+.signup-form select:focus {
+  outline: none;
+  border-color: #3d0a1e;
+}
+
+.signup-form .btn-submit {
+  background-color: rgb(92, 48, 55);
   color: white;
-  padding: 12px 20px;
+  padding: 10px 15px;
   border: none;
   border-radius: 5px;
-  font-size: 16px;
+  font-size: 1em;
   cursor: pointer;
-  width: 100%;
-  margin-top: 10px;
 }
 
-#registration-page .form-container input[type="submit"]:hover {
-  background-color: #FF3B1F;
-}
-
-/* Label styling */
-#registration-page .form-container label {
-  font-size: 14px;
-  color: #333;
-  margin-bottom: 5px;
-  display: block;
-}
-
-/* Spacing between form elements */
-#registration-page .form-container .form-group {
-  margin-bottom: 20px;
-}
-
-/* Adding padding to the form */
-#registration-page .form-container {
-  padding: 20px 25px;
+.signup-form .btn-submit:hover {
+  background-color: #b67d6a;
+  color: #b0470b;
 }
 
 /* Mobile-first styles - Default for smaller devices */

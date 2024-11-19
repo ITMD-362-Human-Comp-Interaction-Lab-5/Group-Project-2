@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Plenty of Fish - Reviews</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<header class="header">
+    <nav class="navbar">
+      <div class="container">
+        <!-- Hamburger Menu -->
+        <button class="hamburger" onclick="toggleDropdown()">&#9776;</button>
+      </div>
+    </nav>
+  
+    <!-- Dropdown Menu -->
+    <div class="dropdown-menu" id="dropdownMenu">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+    </div>
+  </header>
+  
+  <main class="signup-container">
+    <!-- Form Section -->
+    <section class="form-section">
+      <div class="form-wrapper">
+        <h1>Create Your Account</h1>
+        <form class="signup-form" action="/submit" method="post">
+          
+          <!-- Gender Selection -->
+          <div class="form-group">
+            <label for="gender">Gender</label>
+            <select id="gender" name="gender" required>
+              <option value="" disabled selected>Select your gender</option>
+              <option value="male">Male</option>
+              <option value="female">Female</option>
+              <option value="nonbinary">Non-Binary</option>
+              <option value="preferNotToSay">Prefer not to say</option>
+            </select>
+          </div>
+  
+          <!-- Date of Birth -->
+          <div class="form-group">
+            <label for="dob">Date of Birth</label>
+            <input type="date" id="dob" name="dob" required>
+          </div>
+  
+          <!-- Location -->
+          <div class="form-group">
+            <label for="location">Location</label>
+            <input type="text" id="location" name="location" placeholder="City, Country" required>
+          </div>
+  
+          <!-- Preferences -->
+          <div class="form-group">
+            <label for="preferences">What are you looking for?</label>
+            <select id="preferences" name="preferences" required>
+              <option value="" disabled selected>Select an option</option>
+              <option value="dating">Dating</option>
+              <option value="friendship">Friendship</option>
+              <option value="long-term">Long-Term Relationship</option>
+            </select>
+          </div>
+  
+          <!-- Terms and Conditions -->
+          <div class="form-group">
+            <input type="checkbox" id="terms" name="terms" required>
+            <label for="terms">
+              I agree to the <a href="terms.html">terms and conditions</a>.
+            </label>
+          </div>
+  
+          <!-- Submit Button -->
+          <button type="submit" class="cta-btn">Create Account</button>
+        </form>
+  
+        <!-- Social Signup Options -->
+        <div class="social-signup">
+          <p>Or sign up with:</p>
+          <button class="google-btn">Continue with Google</button>
+          <button class="facebook-btn">Continue with Facebook</button>
+        </div>
+  
+        <!-- Privacy Notice -->
+        <p class="privacy-text">
+          By signing up, you agree to our 
+          <a href="#" target="_blank">Privacy Policy</a> and 
+          <a href="#" target="_blank">Terms of Service</a>.
+        </p>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
+  
