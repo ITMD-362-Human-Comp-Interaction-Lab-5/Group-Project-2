@@ -176,7 +176,7 @@ body {
 }
 
 .form-wrapper {
-  background: (white);
+  background: white;
   padding: 30px 30px;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(116, 74, 70, 0.878);
@@ -254,8 +254,6 @@ p {
     max-width: 600px;
   }
 }
-
-
 
 /* Mobile-first styles - Default for smaller devices */
 
