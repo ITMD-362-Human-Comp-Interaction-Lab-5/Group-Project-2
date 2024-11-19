@@ -1,7 +1,7 @@
 /* General styling */
 body {
   font-family: 'Roboto', 'Segoe UI', Tahoma, 'Helvetica Neue', sans-serif; /* Adding more fallbacks for sans-serif */
-  background-color: #FFE5D1; /* Peachy salmon color */
+  background-color: #eac3a6; /* Peachy salmon color */
   margin: 0;
   padding: 0;
 }
@@ -60,7 +60,7 @@ body {
   top: 55px;
   left: 0;
   width: 150px;
-  background-color: #FFD8A8;
+  background-color: #b67d6a;
   border-radius: 5px;
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
 }
@@ -173,7 +173,6 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 80vh;
-  background: #e8cab3;
 }
 
 .form-wrapper {
@@ -188,9 +187,8 @@ body {
 
 h1 {
   font-size: 2em;
-  margin-bottom: 10px;
+  margin-bottom: 1px;
   text-align: center;
-  
 }
 
 p {
