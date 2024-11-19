@@ -92,7 +92,8 @@ body {
   margin: auto;
 }
 
-.slideshow-container text-align: center; /* Center the slideshow */
+.slideshow-container {
+  text-align: center; /* Center the slideshow */
 }
 
 .slide {
@@ -164,6 +165,107 @@ body {
   margin: 5px 0;
   font-family: 'Roboto', 'Segoe UI', Tahoma, 'Helvetica Neue', sans-serif;
 }
+
+/* Styling for the registration page */
+#registration-page {
+  font-family: 'Roboto', 'Segoe UI', Tahoma, 'Helvetica Neue', sans-serif;
+  background-color: #FFE5D1; /* Peachy salmon color */
+  margin: 0;
+  padding: 0;
+}
+
+/* Header section */
+#registration-page .header {
+  background: linear-gradient(to right, #b0470b, #ad233e); /* Orange to pink gradient */
+  padding: 15px;
+  position: relative;
+}
+
+#registration-page h1 p{
+  position: right;
+}
+
+/* Sign-up form container */
+#registration-page .form-container {
+  background-color: white;
+  max-width: 500px;
+  margin: 30px auto;
+  padding: 25px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+#registration-page .form-container h2 {
+  text-align: center;
+  color: #b0470b; /* Orange color */
+  margin-bottom: 20px;
+}
+
+/* Form input fields */
+#registration-page .form-container input[type="text"],
+#registration-page .form-container input[type="email"],
+#registration-page .form-container input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+#registration-page .form-container input[type="submit"] {
+  background-color: #FF5733; /* Button color */
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  width: 100%;
+  margin-top: 10px;
+}
+
+#registration-page .form-container input[type="submit"]:hover {
+  background-color: #FF3B1F;
+}
+
+/* Label styling */
+#registration-page .form-container label {
+  font-size: 14px;
+  color: #333;
+  margin-bottom: 5px;
+  display: block;
+}
+
+/* Spacing between form elements */
+#registration-page .form-container .form-group {
+  margin-bottom: 20px;
+}
+
+/* Adding padding to the form */
+#registration-page .form-container {
+  padding: 20px 25px;
+}
+
+/* Mobile-first styles - Default for smaller devices */
+
+/* Tablet and desktop breakpoints */
+@media (min-width: 600px) {
+  #registration-page .form-container {
+    padding: 30px 40px;
+  }
+}
+
+/* Large devices (laptops/desktops) */
+@media (min-width: 1024px) {
+  #registration-page .form-container {
+    padding: 40px 50px;
+    max-width: 600px;
+  }
+}
+
+
 
 /* Mobile-first styles - Default for smaller devices */
 
