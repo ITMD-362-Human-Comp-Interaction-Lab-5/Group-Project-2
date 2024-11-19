@@ -35,3 +35,13 @@ window.onclick = function(event) {
     }
   }
 };
+
+// Function to validate the form
+function validateForm() {
+  const nameField = document.getElementById("nameField"); // Example form field
+  if (nameField.value === "") {
+    alert("Please fill out the required fields.");
+    return false; // Prevent form submission if validation fails
+  }
+  return true; // Allow form submission if validation passes
+}
