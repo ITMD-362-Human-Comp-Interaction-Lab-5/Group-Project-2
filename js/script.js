@@ -45,3 +45,12 @@ function validateForm() {
   }
   return true; // Allow form submission if validation passes
 }
+
+// JavaScript to handle form submission
+function handleSubmit() {
+  // Reset the form
+  document.getElementById('volunteerForm').reset();
+  // Optionally, you can show a success message or perform other actions
+  alert('Form submitted successfully!'); // Example success message
+  return false; // Prevent default form submission
+}
